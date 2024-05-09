@@ -53,7 +53,7 @@ int main()
   cin>>key;
 
   Binary_search(arr,n,key);
-  if( Binary_search(arr,n,key)!=0)
+  if( Binary_search(arr,n,key)==1)
   {
     cout<<"element found"<<endl;
   }
